@@ -340,7 +340,7 @@ html , body{
         transform: translate(-100%);
     }
 }
-@media (max-width:500px) {
+@media (max-width:600px) {
     body{
         overflow-x: hidden;
     }
@@ -378,7 +378,7 @@ html , body{
     }
     #pager3part1 #part1text{
         position: absolute;
-        bottom: 38px;
+        bottom: 10px;
         transform: translate(0 , 50%);
     }
     #part1text h3{
@@ -407,6 +407,9 @@ html , body{
         font-size: 10px;
         margin-left: 25px;
         margin-bottom: 14px;
+    }
+    .container{
+        height: 123%;
     }
     #page3 {
         height: 74vh;
