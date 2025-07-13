@@ -52,6 +52,9 @@ html , body{
 #nav h2:nth-child(1){
     width: 30%;
 }
+#nav h3{
+    display: none;
+}
 #center{
     height: 90%;
     width: 100%;
@@ -338,5 +341,56 @@ html , body{
     }
 }
 @media (max-width:600px) {
-    
+    body{
+        overflow-x: hidden;
+    }
+    #main #nav{
+        height: 8vh;
+        margin-top: 5px;
+        padding:  0 5vw;
+    }
+    #nav h1{
+        height: 100%;
+        width: 40%;
+        justify-content: flex-start;
+        font-size: 10px;
+        
+    }
+    #nav h2{
+        display: none;
+    }
+    #nav h3{
+        display: block;
+    }
+    #scroll{
+        height: 20vh;
+        width: 100%;
+        white-space: nowrap;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #scroll img{
+        height: 80%;
+        border-radius: 50%;
+        width: 15.5%;
+        border: 2px solid #000;
+        object-fit: cover;
+        object-position: 30% 0;
+        margin: 1vw;
+    }
+    .container{
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+        padding: 1vw;
+        animation: anime 9s linear infinite;
+    }
+    @keyframes anime {
+        from{
+            transform: translateX(0);
+        }
+        to{
+            transform: translateX(-100%);
+        }
+    }
 }
