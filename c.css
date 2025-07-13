@@ -340,7 +340,7 @@ html , body{
         transform: translate(-100%);
     }
 }
-@media (max-width:600px) {
+@media (max-width:500px) {
     body{
         overflow-x: hidden;
     }
@@ -372,7 +372,7 @@ html , body{
     #scroll img{
         height: 80%;
         border-radius: 50%;
-        width: 15.5%;
+        width: 16%;
         border: 2px solid #000;
         object-fit: cover;
         object-position: 30% 0;
